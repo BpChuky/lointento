@@ -6,47 +6,47 @@ import { ChevronLeft, ChevronRight, Heart, Home, Play, Pause } from "lucide-reac
 // Aquí puedes reemplazar estas URLs con tus propias fotos
 const photos = [
   {
-    url: "/public/images/1.jpg",
+    url: "/images/1.jpg",
     caption: "Desde el primer día",
   },
   {
-    url: "/public/images/2.jpg",
+    url: "/images/2.jpg",
     caption: "Jugando a aprender",
   },
   {
-    url: "/public/images/3.jpg",
+    url: "/images/3.jpg",
     caption: "Donde sea y como sea",
   },
   {
-    url: "/public/images/4-1.jpg",
+    url: "/images/4-1.jpg",
     caption: "Sin miedo a hacer cosas nuevas",
   },
   {
-    url: "/public/images/5.jpg",
+    url: "/images/5.jpg",
     caption: "Siempre listos para el show",
   },
   {
-    url: "/public/images/6.jpg",
+    url: "/images/6.jpg",
     caption: "Aunque peleemos por cocinar",
   },
   {
-    url: "/public/images/7.jpg",
+    url: "/images/7.jpg",
     caption: "Abrazados bajo el sol",
   },
   {
-    url: "/public/images/8.jpg",
+    url: "/images/8.jpg",
     caption: "Comiendo y disfrutando a cada momento",
   },
   {
-    url: "/public/images/8a9d5552e38b7c24cf8dd37a412ecc29.jpg",
+    url: "/images/8a9d5552e38b7c24cf8dd37a412ecc29.jpg",
     caption: "Podemos ser lindos y tiernos",
   },
   {
-    url: "/public/images/9.jpg",
+    url: "/images/9.jpg",
     caption: "Pero siempre sonriendo",
   },
   {
-    url: "/public/images/10.jpg",
+    url: "/images/10.jpg",
     caption: "PERO SIEMPRE JUNTOS",
   },
 ];
@@ -236,7 +236,7 @@ let fadeIn = setInterval(() => {
         loop
         autoPlay
         muted
-        src="/public/music/Contra viento y marea- Las Pastillas del Abuelo (Acústico) con letra - Cyntia Gelvez.mp3"
+        src="/music/Contra viento y marea- Las Pastillas del Abuelo (Acústico) con letra - Cyntia Gelvez.mp3"
       />
 
       <div className="pointer-events-none fixed inset-0 overflow-hidden z-0">
