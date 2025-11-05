@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 340 30% 97%;
+    --foreground: 340 50% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 340 50% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 340 50% 15%;
+
+    --primary: 340 82% 52%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 340 65% 90%;
+    --secondary-foreground: 340 50% 15%;
+
+    --muted: 340 30% 95%;
+    --muted-foreground: 340 20% 45%;
+
+    --accent: 25 95% 65%;
+    --accent-foreground: 340 50% 15%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 340 30% 90%;
+    --input: 340 30% 90%;
+    --ring: 340 82% 52%;
+
+    --radius: 1rem;
+
+    /* Romantic design tokens */
+    --gradient-romantic: linear-gradient(135deg, hsl(340, 82%, 52%), hsl(25, 95%, 65%));
+    --gradient-soft: linear-gradient(180deg, hsl(340, 30%, 97%), hsl(340, 65%, 95%));
+    --shadow-romantic: 0 20px 40px -15px hsl(340 82% 52% / 0.3);
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 340 50% 8%;
+    --foreground: 340 30% 95%;
+
+    --card: 340 45% 12%;
+    --card-foreground: 340 30% 95%;
+
+    --popover: 340 45% 12%;
+    --popover-foreground: 340 30% 95%;
+
+    --primary: 340 82% 52%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 340 40% 20%;
+    --secondary-foreground: 340 30% 95%;
+
+    --muted: 340 40% 18%;
+    --muted-foreground: 340 20% 65%;
+
+    --accent: 25 85% 60%;
+    --accent-foreground: 340 30% 95%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 340 40% 20%;
+    --input: 340 40% 20%;
+    --ring: 340 82% 52%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

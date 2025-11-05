@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Para Ti, Mi Amor ❤️</title>
+    <meta name="description" content="Un mensaje especial para ti" />
+    <meta name="author" content="Con todo mi corazón" />
+
+    <meta property="og:title" content="Para Ti, Mi Amor ❤️" />
+    <meta property="og:description" content="Un mensaje especial para ti" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Lovable" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+
+    <div style="text-align: center; margin-top: 40px;">
+  <button id="forgive-btn" style="
+      background-color: #ff6b81;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      padding: 15px 30px;
+      font-size: 18px;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: transform 0.2s;
+  " onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+    ¿Me perdonas? 💖
+  </button>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const boton = document.getElementById('forgive-btn');
+    boton.addEventListener('click', function() {
+      const respuesta = confirm("¿Me perdonas?");
+      if (respuesta) {
+        window.open("https://wa.me/5492645773521?text=Te%20perdono%20lo%20intentemos", "_blank");
+      } else {
+        alert("😢");
+      }
+    });
+  });
+</script>
+  </body>
+</html>
